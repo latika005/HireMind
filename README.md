@@ -6,3 +6,10 @@ Resume Analysis and Career Recommendation System is a full-stack web application
 Using Google Gemini AI, the system performs semantic analysis of the provided text to identify relevant technical and behavioral skills, assess the candidate–job alignment, detect skill gaps, and generate personalized career-oriented insights and questions. The AI response is constrained to a predefined structure using Zod and JSON Schema, ensuring that the generated information is consistent, validated, and suitable for presentation within the application.
 
 The application follows a React.js frontend and Node.js/Express.js backend architecture, with MongoDB used for persistent storage and JWT-based cookie authentication for secure user sessions. Overall, the system demonstrates the integration of NLP, document processing, Generative AI, structured output validation, and full-stack web development into a practical resume-analysis workflow.
+
+<img width="878" height="419" alt="image" src="https://github.com/user-attachments/assets/b8a34968-5f87-4ddc-8b36-c5ed056479fd" />
+
+<img width="908" height="428" alt="image" src="https://github.com/user-attachments/assets/d97d375e-7286-4105-a73f-991558713f31" />
+
+The project is ongoing, and the future add-ons to this project would be using puppeteer-npm-package for pdf-generation such that the analysed-report can be further downloaded by the user for personal use, and hence deployment.
+
