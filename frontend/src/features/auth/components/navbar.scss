@@ -1,0 +1,89 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background-color: #1e1e1e;
+    border-bottom: 1px solid rgb(80, 80, 80);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    .navbar-logo {
+        color: whitesmoke;
+        font-size: 1.4rem;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+
+        .highlight {
+            color: rgb(116, 234, 195);
+        }
+    }
+
+    .navbar-links {
+        display: flex;
+        align-items: center;
+        gap: 2.25rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li p{
+            cursor: pointer;
+            color: rgb(200, 200, 200);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.2s ease-in-out;
+
+            &:hover {
+                color: rgb(116, 234, 195);
+            }
+        }
+
+        .nav-link {
+            color: rgb(200, 200, 200);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.2s ease-in-out;
+
+            &:hover {
+                color: rgb(116, 234, 195);
+            }
+        }
+    }
+
+    .navbar-cta {
+        border: none;
+        border-radius: 10px;
+        padding: 0.6rem 1.4rem;
+        background-color: rgb(116, 234, 195);
+        color: #10201a;
+        font-weight: 600;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            background-color: rgb(90, 215, 175);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+        }
+
+        &:active {
+            transform: translateY(0);
+            box-shadow: none;
+            background-color: rgb(75, 200, 160);
+        }
+    }
+
+    @media (max-width: 900px) {
+        padding: 1rem 1.5rem;
+
+        .navbar-links {
+            display: none;
+        }
+    }
+}
